@@ -3,3 +3,120 @@ body{
 	margin: 0;
 	padding: 0;
 }
+header{
+	background-color: rgb(41,189,224);
+	position: absolute;
+	top: 0;
+	height: 32rem;
+	width: 100%;
+}
+.top{
+	height: 4rem;
+	border-bottom: 0.1px solid rgb(116,212,235);
+	text-align: center;
+	color: white;
+	font-size: 1.8rem;
+	padding: 1rem 0 0 0;
+}
+.home{
+	background: url(../img/img.png)no-repeat;
+	background-position: 0 -207px;
+	background-size: 2.5rem;
+	width: 2.5rem;
+	height: 2rem;
+	float: left;
+	margin: 0 0 0 1rem;
+	cursor: pointer;
+}
+.notice{
+	background: url(../img/img.png)no-repeat;
+	background-position: 0 -184px;
+	background-size: 2.5rem;
+	width: 2.5rem;
+	height: 1.9rem;
+	float: right;
+	margin: 0 1rem 0 0;
+	cursor: pointer;
+}
+.result{
+	padding: 0.2rem 0 0 0;
+}
+.content{
+	width: 72%;
+	height: 28rem;
+	position: absolute;
+	left: 14%;
+	text-align: center;
+}
+.victory{
+	width: 15rem;
+	padding: 1rem 0 0 0;
+}
+.good{
+	text-align: left;
+	padding: 1rem 0 0 0;
+	color: rgb(255,200,101);
+	font-size: 1.5rem;
+	font-weight: bold;
+	line-height: 1.8rem;
+}
+.number{
+	text-align: left;
+	color: white;
+	line-height: 1.2rem;
+	padding: 1rem 0 0 0;
+}
+footer{
+	width: 100%;
+	height: 6rem;
+	background-color: rgba(41,189,224,0.5);
+	position: absolute;
+	bottom: 0;
+	color: white;
+	font-size: 2rem;
+}
+.again{
+	width: 11.5rem;
+	height: 3.8rem;
+	background-color: rgb(246,111,111);
+	border-radius: 5px;
+	border: 1px solid rgb(246,111,111);
+	float: left;
+	margin: 1rem 0 0 1rem;
+}
+.again{
+	color: white;
+}
+.upload{
+	width: 11.5rem;
+	height: 3.8rem;
+	background-color: rgb(251,180,53);
+	border-radius: 5px;
+	border: 1px solid rgb(251,180,53);
+	float: right;
+	margin: 1rem 1rem 0 0;
+}
+main{
+	position: absolute;
+	top: 32rem;
+	bottom: 0;
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.date{
+	font-size: 1.5rem;
+	padding: 1rem 0 0 3.6rem;
+}
+.time{
+	font-size: 1rem;
+	color: lightgray;
+	position: absolute;
+	top: 1.4rem;
+	right: 3.5rem;
+}
+.night,.day{
+	color: darkgray;
+	line-height: 0.9rem;
+	padding: 0 0 0 3.6rem;
+}
